@@ -1,3 +1,5 @@
+sudo apt update
+sudo apt install libgl1-mesa-glx
 python --version
 echo "Build"
 pip3 install -r requirements.txt
