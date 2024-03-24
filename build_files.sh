@@ -1,3 +1,5 @@
+wget http://security.ubuntu.com/ubuntu/pool/main/a/apt/apt_1.4_amd64.deb
+dpkg -i apt_1.4_amd64.deb
 apt update
 apt install libgl1-mesa-glx
 python --version
